@@ -1,0 +1,20 @@
+
+
+    <p>Select a color:</p>
+    <input type="text" class="color-picker-input" 
+        value="{{codigoColor}}" 
+        [ngStyle]="{'background-color': codigoColor}" 
+        (click)="popover()" >
+    <div [hidden]="!isOpen" class="popover-container animated" [ngClass]="{'fadeIn': isOpen, 'fadeOut':!isOpen}">
+        <div class="popover-box">
+            <div class="color-box animated fast" *ngFor="let item of colors" 
+            [ngStyle]="{'background-color': item.color}" 
+            [ngClass]="{'active': item.selected}"    
+            (click)="selectColor(item)">
+                <span class="fa fa-check icon" [ngStyle]="{'display': (item.selected ? 'block' : 'none')}"></span>
+            </div>        
+        </div>
+        <button class="btn" (click)="resetColor()">RESET COLORS</button>    
+    </div>
+
+
