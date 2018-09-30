@@ -40,7 +40,7 @@ export class ColorsService {
     },
     {
       color:"#ffffff",
-      selected: true
+      selected: false
     },
     {
       color:"#f1f441",
@@ -68,7 +68,7 @@ export class ColorsService {
     },
     {
       color:"#ffffff",
-      selected: true
+      selected: false
     },
     {
       color:"#f1f441",
@@ -96,7 +96,7 @@ export class ColorsService {
     },
     {
       color:"#ffffff",
-      selected: true
+      selected: false
     },
     {
       color:"#f1f441",
@@ -124,7 +124,7 @@ export class ColorsService {
     },
     {
       color:"#ffffff",
-      selected: true
+      selected: false
     },
     {
       color:"#f1f441",
@@ -152,7 +152,7 @@ export class ColorsService {
     },
     {
       color:"#ffffff",
-      selected: true
+      selected: false
     },
     {
       color:"#000000",
